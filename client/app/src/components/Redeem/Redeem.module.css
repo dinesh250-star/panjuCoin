@@ -12,7 +12,8 @@
     display: grid;
     grid-template-columns: 2fr 1.5fr 2fr;
 }
-.mintbox{
+
+.redeembox{
     display: flex ;
     flex-direction: column;
     border-style: none;
@@ -87,13 +88,12 @@
   .gas_estimate{
     margin: 0px 20px 10px 20px;
   }
-  /* approve mint btn */
+  /* approve redeem btn */
   .Btn{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: space-between;
     padding: 10px 20px 10px 20px;
-    
   }
   .allBtn{
     border-style: none;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  #MintBtn{
+  #redeemBtn{
     background-color: rgb(154, 99, 184);
       border-style: none;
       color: rgb(255, 255, 255);
